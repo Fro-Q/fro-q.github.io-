@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "title": "好久不见:P",
+      "abstract": "好几十天没有写东西，一部分原因是忙得没时间写，一部分原因是忙得没时间想。",
+      "date": "2023-06-01",
+      "tags": ["talk"],
+      "path": "posts/first-post.md"
+    },
+    {
+      "title": "What is Prompt?",
+      "abstract": "一篇关于「Prompt」的极极极简介绍。",
+      "date": "2023-06-15",
+      "tags": ["ChatGPT", "prompt"],
+      "path": "posts/second-post.md"
+    },
+    {
+      "title": "What is Prompt?",
+      "abstract": "一篇关于「Prompt」的极极极简介绍。",
+      "date": "2023-06-15",
+      "tags": ["ChatGPT", "prompt"],
+      "path": "posts/second-post.md"
+    }
+  ]
+}
