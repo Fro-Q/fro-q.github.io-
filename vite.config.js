@@ -13,5 +13,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  publicPath: '/',
+  publicPath: '/Fro-Q.github.io/',
+  base: '/Fro-Q.github.io/'
 })
+
+module.exports = {
+    publicPath: '/Fro-Q.github.io/'
+}
