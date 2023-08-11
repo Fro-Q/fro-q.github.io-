@@ -20,9 +20,12 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
     "eslint": "^8.45.0",
     "eslint-plugin-vue": "^9.15.1",
+    "html-webpack-plugin": "^5.5.3",
     "sass": "^1.65.1",
+    "style-loader": "^3.3.3",
     "vite": "^4.4.6",
     "webpack": "^5.88.2"
   }
