@@ -1,6 +1,6 @@
 import './assets/main.scss'
 
-import { createApp } from 'node_modules/vue/dist/vue.global.js'
+import { createApp } from './vue.js'
 import App from './App.vue'
 import router from './router'
 
