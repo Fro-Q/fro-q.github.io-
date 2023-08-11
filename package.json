@@ -1,0 +1,29 @@
+{
+  "name": "blog-vue",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "update-routers": "node src/scripts/update-routers.js",
+    "get-posts-data": "node src/scripts/get-posts-data.js",
+    "dev": "vite",
+    "build": "npm run update-routers && npm run get-posts-data && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.9",
+    "js-yaml": "^4.1.0",
+    "markdown-it": "^13.0.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "sass": "^1.65.1",
+    "vite": "^4.4.6",
+    "webpack": "^5.88.2"
+  }
+}
