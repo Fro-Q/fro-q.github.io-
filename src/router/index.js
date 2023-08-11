@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Menubar from '../components/Menubar.vue'
+import Menubar from '../components/MenuBar.vue'
 import TableOfContents from '../components/TableOfContents.vue'
 import TagList from '../components/TagList.vue'
 
