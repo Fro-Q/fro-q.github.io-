@@ -16,7 +16,3 @@ export default defineConfig({
   publicPath: '/Fro-Q.github.io/',
   base: '/Fro-Q.github.io/'
 })
-
-module.exports = {
-    publicPath: '/Fro-Q.github.io/'
-}

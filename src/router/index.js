@@ -23,7 +23,7 @@ const router = createRouter({
       components: {
         sidebarLeft: Menubar,
         sidebarRight: TagList,
-        mainContent: () => import('@/components/posts-vue/long-time-no-see.vue'),
+        mainContent: () => import('/src/components/posts-vue/long-time-no-see.vue'),
       }
     },
     {
@@ -32,7 +32,7 @@ const router = createRouter({
       components: {
         sidebarLeft: Menubar,
         sidebarRight: TagList,
-        mainContent: () => import('@/components/posts-vue/what-is-prompt.vue'),
+        mainContent: () => import('/src/components/posts-vue/what-is-prompt.vue'),
       }
     },
     {
@@ -41,7 +41,7 @@ const router = createRouter({
       components: {
         sidebarLeft: Menubar,
         sidebarRight: TagList,
-        mainContent: () => import('@/components/posts-vue/need-time.vue'),
+        mainContent: () => import('/src/components/posts-vue/need-time.vue'),
       }
     },
     {
@@ -50,7 +50,7 @@ const router = createRouter({
       components: {
         sidebarLeft: Menubar,
         sidebarRight: TagList,
-        mainContent: () => import('@/components/posts-vue/basics-of-prompting.vue'),
+        mainContent: () => import('/src/components/posts-vue/basics-of-prompting.vue'),
       }
     },
     {
@@ -59,7 +59,7 @@ const router = createRouter({
       components: {
         sidebarLeft: Menubar,
         sidebarRight: TagList,
-        mainContent: () => import('@/components/posts-vue/making-obsidian-theme.vue'),
+        mainContent: () => import('/src/components/posts-vue/making-obsidian-theme.vue'),
       }
     },    {
       path: '/about',
